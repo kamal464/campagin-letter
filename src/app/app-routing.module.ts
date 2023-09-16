@@ -6,17 +6,16 @@ import { Template3Component } from './components/template3/template3.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 
 const routes: Routes = [
-  { path: 'template1', component: Template1Component },
-  { path: 'template2', component: Template2Component },
-  { path: 'template3', component: Template3Component },
+  { path: '1', component: Template1Component },
+  { path: '2', component: Template2Component },
+  { path: '3', component: Template3Component },
   // { path: '', redirectTo: '/AppComponent', pathMatch: 'full' },
-  {path: 'ButtonsComponent', component:ButtonsComponent},
+  { path: 'ButtonsComponent', component: ButtonsComponent },
   { path: '', redirectTo: '/ButtonsComponent', pathMatch: 'full' },
-
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -4,6 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,25 +46,29 @@
         }
 
         @media (max-width: 768px) {
-    li {
-        margin-bottom: 8px; /* Adjust margin for smaller screens */
-    }
+            li {
+                margin-bottom: 8px;
+                /* Adjust margin for smaller screens */
+            }
 
-    button {
-        padding: 8px 16px; /* Reduce padding for smaller screens */
-    }
-}
+            button {
+                padding: 8px 16px;
+                /* Reduce padding for smaller screens */
+            }
+        }
     </style>
 </head>
+
 <body>
     <nav>
         <ul>
-            <li><button (click)="openInNewTab('template1')">Open template 1</button></li>
-            <li><button (click)="openInNewTab('template2')">Open template 2</button></li>
-            <li><button (click)="openInNewTab('template3')">Open template 3</button></li>
+            <li><button (click)="openInNewTab('1')">Open template 1</button></li>
+            <li><button (click)="openInNewTab('2')">Open template 2</button></li>
+            <li><button (click)="openInNewTab('3')">Open template 3</button></li>
         </ul>
     </nav>
 
-  
+
 </body>
+
 </html>
