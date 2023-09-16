@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" />
+    <style>
+  body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0;
+  }
+
+  .header {
+    width: 100%;
+    background-color: #f17626;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    margin: 20px;
+  }
+
+  .data-table {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .data-table p {
+    margin: 10px 0;
+  }
+
+  .paragraph {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .paragraph p {
+    margin-bottom: 10px;
+  }
+
+  .video-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+  }
+
+  .video-container iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px 0;
+  }
+
+  .scroll-container img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f17626;
+    color: #fff;
+  }
+
+  .table-container {
+    padding: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .data-table {
+      font-size: 14px;
+    }
+
+    .paragraph {
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .video-container {
+      padding: 10px;
+    }
+
+    .video-container iframe {
+      width: 100%;
+    }
+
+    .scroll-container {
+      margin: 10px 0;
+    }
+
+    .scroll-container img {
+      max-width: 80px;
+      margin-right: 5px;
+    }
+
+    table, th, td {
+      padding: 5px;
+    }
+  }
+</style>
+
+  </head>
+  <body>
+    <div class="header">
+        <img src="../assets/images/header.jpg" alt="Banner Image">
+    </div>
+
+    <div class="data-table">
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Assembly:</strong> XYZ Assembly</p>
+      <p><strong>Booth:</strong> Booth 123</p>
+      <p><strong>Address:</strong> 1234 Elm St, City, Country</p>
+    </div>
+
+    <div class="paragraph">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        laborum est accusantium nesciunt. Vitae velit alias quisquam vero iusto
+        neque, sapiente laboriosam iste! Laudantium deserunt recusandae
+        quibusdam ipsum dolore? Commodi?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ducimus
+        ratione molestiae aliquid rem dolorum dolorem a suscipit tempora
+        temporibus nihil aliquam, ea nulla corrupti consequatur illum neque
+        cupiditate reiciendis.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        vero labore inventore laborum, blanditiis saepe fugit neque eos,
+        accusamus officia repudiandae in? Ut quis quo consequatur suscipit.
+        Repudiandae, blanditiis ipsam.
+      </p>
+    </div>
+
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/fjIRUWLnyRM"
+        title="Jungkook FMV Need To Know"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        src="https://www.youtube.com/embed/aYOW6hD2zuI"
+        title="[FMV] Jungkook ❝Unholy❞"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        src="https://www.youtube.com/embed/fjIRUWLnyRM"
+        title="Jungkook FMV Need To Know"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        src="https://www.youtube.com/embed/aYOW6hD2zuI"
+        title="[FMV] Jungkook ❝Unholy❞"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        src="https://www.youtube.com/embed/aYOW6hD2zuI"
+        title="[FMV] Jungkook ❝Unholy❞"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        src="https://www.youtube.com/embed/aYOW6hD2zuI"
+        title="[FMV] Jungkook ❝Unholy❞"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="image-gallery scroll-container">
+        <img src="../assets/images/image-1.jpg" alt="Image 1">
+        <img src="../assets/images/image-1.jpg" alt="Image 2">
+        <img src="../assets/images/image-1.jpg" alt="Image 3">
+        <img src="../assets/images/image-1.jpg" alt="Image 4">
+        <img src="../assets/images/image-1.jpg" alt="Image 5">
+        <img src="../assets/images/image-1.jpg" alt="Image 6">
+        <img src="../assets/images/image-1.jpg" alt="Image 7">
+        <img src="../assets/images/image-1.jpg" alt="Image 8">
+        <img src="../assets/images/image-1.jpg" alt="Image 9">
+        <img src="../assets/images/image-1.jpg" alt="Image 10">
+    </div>
+    <div class="table-container">
+        <table>
+          <tr>
+            <td>sl.no</td>
+            <td>votur number</td>
+          </tr>
+          <tr>
+            <td>sl.no2</td>
+            <td>votur number</td>
+          </tr>
+          <tr>
+            <td>fatherbame</td>
+            <td>votur number</td>
+          </tr>
+          <tr>
+            <td>age</td>
+            <td>votur number</td>
+          </tr>
+        </table>
+      </div>
+    <div class="header">
+        <img src="../assets/images/header.jpg" alt="Banner Image">
+    </div>
+  </body>
+</html>
